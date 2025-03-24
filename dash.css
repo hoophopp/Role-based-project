@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* User Greeting Section */
+.user-greeting {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Articles Container */
+.articles-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual Article Styling */
+.article {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #222;
+}
+
+.article p {
+    margin: 0 0 15px 0;
+    font-size: 1em;
+    white-space: pre-wrap;
+    color: #555;
+
+}
+#submit{
+    background-color: #007bff;
+    height: 32px;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+#submit:hover{
+    background-color: #0056b3;
+    
+}
+
+/* Options Button Styling */
+.article button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+
+.article button:hover {
+    background-color: #0056b3;
+}
+
+/* Button Container (Edit/Delete Buttons) */
+.button-container {
+    display: none;
+    margin-top: 10px;
+}
+
+.button-container button {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+.button-container button.delete-btn {
+    background-color: #dc3545;
+}
+
+.button-container button.delete-btn:hover {
+    background-color: #c82333;
+}
+.button-container button.history-btn{
+    background-color: yellow;
+}
+.button-container button.history-btn:hover{
+    background-color: rgb(248, 248, 19);
+}
+
+.button-container button.edit-btn:hover {
+    background-color: #218838;
+}
+.general{
+    height: auto;
+}
+#postpage{
+    margin-block: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+input{
+    background-color: #007bff;
+    width: 200px;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    margin-inline: 4px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+input:hover{
+    background-color: #0056b3;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+

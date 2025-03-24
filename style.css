@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0e011d, #010f27); /* Blue-purple gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#div {
+    background: rgba(241, 241, 241, 0.9); 
+    width: 400px;
+    padding: 30px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+    border: 3px solid rgb(0, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    color: #000000; /* Bright blue */
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+input {
+    margin: 15px 0;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px; border: 1px solid rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.3);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+input::placeholder {
+    color: #999;
+}
+
+button {
+    margin: 20px 0;
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background: rgb(226, 241, 8);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+p{
+    color: white;
+}
+button:hover {
+    background: #000000; /* Darker blue on hover */
+    color: white;
+    transform: translateY(-2px); 
+}
+
+button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}

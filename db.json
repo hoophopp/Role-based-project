@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "adminUser",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "userUser",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "viewerUser",
+      "role": "viewer"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "Protecting Children from Online Predators: The Hidden Dangers and How to be Safe",
+      "content": "While some predators operate openly on social media, others use the dark web to share illegal content. Law enforcement agencies worldwide, including the FBI and Interpol, actively investigate and dismantle these criminal networks. However, the fight against online child exploitation remains ongoing, as predators continuously adapt to new technologies.",
+      "authorId": 2
+    },
+    {
+      "id": 2,
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "authorId": 1
+    },
+    {
+      "id": 4,
+      "title": "The Power of JavaScript in Modern Web Development 🚀",
+      "content": "JavaScript has evolved from a simple scripting language into one of the most powerful tools in web development. Today, it powers everything from interactive web applications to real-time data processing.  1️⃣ JavaScript: The Heart of the Web Almost every modern website relies on JavaScript for dynamic interactions. Features like live chat, notifications, and animations all run on JavaScript.",
+      "authorId": 1
+    },
+    {
+      "id": 4,
+      "title": "The Power of JavaScript in Modern Web Development 🚀",
+      "content": "JavaScript has evolved from a simple scripting language into one of the most powerful tools in web development. Today, it powers everything from interactive web applications to real-time data processing.  1️⃣ JavaScript: The Heart of the Web Almost every modern website relies on JavaScript for dynamic interactions. Features like live chat, notifications, and animations all run on JavaScript.",
+      "authorId": 1
+    },
+    {
+      "id": 4,
+      "title": "The Power of JavaScript in Modern Web Development 🚀",
+      "content": "JavaScript has evolved from a simple scripting language into one of the most powerful tools in web development. Today, it powers everything from interactive web applications to real-time data processing.  1️⃣ JavaScript: The Heart of the Web Almost every modern website relies on JavaScript for dynamic interactions. Features like live chat, notifications, and animations all run on JavaScript.",
+      "authorId": 1
+    }
+  ],
+  "history": [
+    {
+      "articleI": 1,
+      "timestamp": "2025-03-22T12:00:00Z",
+      "oldtitle": "old",
+      "oldContent": "old"
+    }
+  ]
+}
