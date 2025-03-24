@@ -1,4 +1,6 @@
 Role-Based Access Control Project 
+# 🚨 **JavaScript is hidden for security reasons.** 🚨
+
 
 🚀 Description
 This project is a Role-Based Access Control (RBAC) system, where users have different permissions based on their roles.
