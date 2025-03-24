@@ -21,8 +21,9 @@ This project ensures security and proper data access control, making it suitable
 ✔️ Login required for access.
 
 Role	Username	Password
-Admin	adminUser	admin123
-User	userUser	user123
+Role=> Admin	Username =>adminUser	Password =>admin123
+
+Role =>User	Username =>userUser Password=>user123
 
 
 🚀 Tech Stack
